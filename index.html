@@ -1,13 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+
 </head>
+
 <body>
+
+    <header class="navbar">
+        <nav class="navbar__nav">
+            <img src="/Group 1.svg " alt="">
+            <img src="/Group 2.svg" alt="">
+           
+        </nav>
+
+        <div>
+            <h1>
+                Albums
+            </h1>
+            <h2>
+                Popular
+            </h2>
+        </div>
+
+    </header>
+
+
+    <main class="reproductor">
+        <nav class="reproductor__nav">
+
+            <img src="/Flecha Izquierda.svg" alt="">
+
+            <div id="track-list">
+
+
+            </div>
+
+            <img src="/flecha derecha.svg" alt="">
+        </nav>
+    </main>
+
+
+
+
+
+
+    <footer class="footer">
+        <nav class="footer__nav">
+            <img src="/Ellipse 11.svg" alt=""
+            id="current-song-img">
+            <div>
+                <h1 id="current-song-title">
+                    Ferxxxo
+                </h1>
+                <h2 id="current-song-author">
+                    Feid
+                </h2>
+            </div>
+            <div>
+                <audio src="" controls autoplay 
+                id="current-song-audio"></audio>
+            </div>
+
+
+        </nav>
+
+
+    </footer>
+
+
+
     <script src="/script.js"></script>
 </body>
+
+
+
+
 </html>
